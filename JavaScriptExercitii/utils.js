@@ -19,6 +19,6 @@ function arrayMinMax(a, b) {
     return [max, min];
 }
 
-const rezultat = minmax(3, 5);
+const { max, min } = minmax(3, 5);
 
 const [minArray, maxArray] = arrayMinMax(10, 18)
